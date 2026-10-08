@@ -182,3 +182,38 @@ footer iframe {
 .footer-box a:hover {
     color: #ff4655;
 }
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+
+    main h2 {
+        font-size: 1.5em;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .saga-item {
+        flex: none;
+        width: 100%;
+        max-width: none;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+    .role img {
+        width: 110px;
+        height: 110px;
+    }
+
+    footer iframe {
+        height: 250px;
+    }
+
+    .footer-info {
+        flex-direction: column;
+        gap: 1em;
+    }
+}
